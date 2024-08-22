@@ -54,32 +54,7 @@
      <header class=" bg-gray-50 ">
         <section class="container mx-auto ">
             <div class="navbar ">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost hidden lg:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
-                    </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a>Home</a></li>
-                      <li><a>Services</a></li>
-                      <li><a>Portfolio</a></li>
-                      <li><a>Blog</a></li>
-                      <li><a>Contact US</a></li>
-                    </ul>
-                  </div>
+                <div class="navbar-start"> 
                   <i class="fa-solid fa-arrow-right  text-center -rotate-45  bg-btn-consultant text-black  rounded-full p-2 mr-2 "></i></a>
                   <a class="font-extrabold text-3xl text-black">Rinterio</a>
                 </div>
@@ -94,7 +69,20 @@
                 </div>
                 
                 <div class="navbar-end">
-                    <i class="fa-solid fa-bars  border p-2 rounded-full bg-white  md:hidden lg:hidden"></i>
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost md:hidden lg:hidden">
+                      <i class="fa-solid fa-bars  border p-2 rounded-full bg-white  md:hidden lg:hidden"></i>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact US</a></li>
+                    </ul>
+                  </div>
                   <div class="flex hidden md:inline-flex space-x-3 ">
                     <i class="fa-solid fa-magnifying-glass border p-2 rounded-full bg-white "></i>
                     <i class="fa-solid fa-cart-shopping border  p-2 rounded-full bg-white "></i>
@@ -106,7 +94,7 @@
             </div>
             <div class="mt-10">
                 <!-- Banner Image -->
-                <div class="flex justify-center items-center ">
+                <div class="w-[265px] mx-auto md:w-full lg:w-full flex justify-center items-center ">
                     <img src="assets/banner.png" alt="">
                 </div>
                 <!-- Banner Text -->
@@ -224,6 +212,7 @@
             </div>
 
         </section>
+        
 
       </main>
       <!-- Footer Section -->
